@@ -1,0 +1,64 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Checkpoints (Chỉ chặn checkpoint, KHÔNG chặn file .ipynb)
+.ipynb_checkpoints/
+
+# Python tooling & Testing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Environment variables (Bảo mật thông tin cấu hình)
+.env
+.env.*
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Project data
+data/
+
+# Trained models & Weights (Chặn các file model nặng)
+models/
+*.keras
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.tflite
+*.pt
+*.pth
+
+# Generated reports & Figures (Chặn ảnh, csv kết quả xuất ra)
+reports/
+
+# Runtime uploads
+static/uploads/
+
+# Experiment logs & Tracking
+logs/
+runs/
+wandb/
+mlruns/
+
+# Editor settings (Bỏ qua cấu hình riêng của IDE)
+.vscode/
+.idea/
+
+# Misc temp
+*.log
+*.tmp
+*.bak
